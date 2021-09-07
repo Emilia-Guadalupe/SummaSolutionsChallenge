@@ -64,7 +64,25 @@ $discountColor: #c6c6c6;
     }
 }
 
-@media only screen and (min-width: 624px) {
+@media (min-width: 600px) {
+
+    .details-container {
+        margin: 1rem;
+    }
+
+    .car-photo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+    
+    .car-photo {
+        height: 7rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
     
     .details-container {
         margin: 1rem;

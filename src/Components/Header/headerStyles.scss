@@ -23,6 +23,7 @@ $secondFontColor: #676767;
 }
 
 @media (max-width:480px) {
+    
     .header-container {
         padding: 2rem;
     }
@@ -32,12 +33,12 @@ $secondFontColor: #676767;
     }
 }
 
-@media only screen and (min-width: 624px) {
+@media only screen and (min-width: 600px) {
     .header-container {
         padding: 4rem;
     }
 
     .main-text {
-        padding: 1rem 20rem 1rem 20rem;
+        padding: 1rem 10rem 1rem 10rem;
     }
 }

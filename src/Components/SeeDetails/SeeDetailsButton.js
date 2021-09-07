@@ -3,17 +3,17 @@ import './buttonStyles.scss';
 
 function SeeDetailsButton() {
 
-    const [isNarrowScreen, setIsNarrowScreen] = useState(false)
+    const [isMobileScreen, setMobileScreen] = useState(false)
 
     useEffect(() => {
 
         // set initial value to determine the screen size when the change happens
         const mediaWatcher = window.matchMedia("(max-width: 500px)")
-        setIsNarrowScreen(mediaWatcher.matches);
+        setMobileScreen(mediaWatcher.matches);
     
         //watch for updates in the screen size
         function updateIsNarrowScreen(e) {
-            setIsNarrowScreen(e.matches);
+            setMobileScreen(e.matches);
         }
 
         mediaWatcher.addEventListener('change', updateIsNarrowScreen)
@@ -28,7 +28,7 @@ function SeeDetailsButton() {
 
     return(
         <div className="button-container">
-            {isNarrowScreen ? <button className="details-button">Comprar</button> : <button className="details-button">Ver Detalles</button>}
+            {isMobileScreen ? <button className="details-button">Comprar</button> : <button className="details-button">Ver Detalles</button>}
         </div>
     )
 }
