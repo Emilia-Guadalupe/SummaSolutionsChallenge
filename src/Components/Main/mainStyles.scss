@@ -1,0 +1,56 @@
+$titleFont: 'Roboto', sans-serif;
+$fontColor: #2e2e2e;
+$secondFontColor: #676767;
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.main-title {
+    font-family: $titleFont;
+    font-size: 1.5rem;
+    color: $fontColor;
+    text-align: center;
+}
+
+.main-text {
+    font-family: $titleFont;
+    color: $secondFontColor;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height : 20px;
+
+}
+
+@media (max-width:480px) {
+    
+    .main-container {
+        padding: 2rem;
+    }
+
+    .main-text {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .main-container {
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .main-text {
+        padding: 1rem 10rem 1rem 10rem;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .main-container {
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .main-text {
+        padding: 1rem 25rem 1rem 25rem;
+    }
+}
