@@ -32,7 +32,9 @@ function ProductCard() {
                 return(
                     <div key={e.id} className="card-container">
                         <div className="details-container">
-                            <img className="car-photo" src={e.img} alt="car front" />
+                            <div className="car-photo-container">
+                                <img className="car-photo" src={e.img} alt="car front" />
+                            </div>
                             <div className="specifications">
                                 <h3 className="element-name">{e.name}</h3>
                                 <p className="discount">Antes: ${e.discount}</p>
