@@ -3,6 +3,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
+        padding: 0rem 10rem 0rem 10rem;
     }
 }
 
@@ -11,6 +12,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
-        padding: 0rem 10rem 0rem 10rem;
+        padding: 0rem 20rem 0rem 20rem;
     }
 }
