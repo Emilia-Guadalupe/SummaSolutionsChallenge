@@ -7,8 +7,8 @@ import ProductGallery from './Components/ProductGallery/ProductGallery';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <ProductGallery />
+          <Header />
+          <ProductGallery />
     </div>
   );
 }
