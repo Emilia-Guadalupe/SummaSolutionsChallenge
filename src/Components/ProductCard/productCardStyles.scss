@@ -1,9 +1,47 @@
+$bgColor: #ffffff;
+$titleFont: 'Roboto', sans-serif;
+$secondFontColor: #676767;
+$discountColor: #c6c6c6;
+
 .card-container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+}
 
+.details-container {
+    background-color: $bgColor;
+    margin: 1rem;
+}
+
+.car-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem 3rem 1rem;
 }
 
 .car-photo {
-    height: 3rem;
+    height: 6rem;
+}
+
+.element-name {
+    font-family: $titleFont;
+    color: $secondFontColor;
+    font-size: 0.8rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.discount {
+    color: $discountColor;
+    font-family: $titleFont;
+    font-size: 0.8rem;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.price {
+    font-family: $titleFont;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-weight: bold;
 }

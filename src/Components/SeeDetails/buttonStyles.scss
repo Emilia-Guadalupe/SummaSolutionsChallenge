@@ -1,0 +1,17 @@
+$buttonColor: #4dbd3d;
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.details-button {
+    padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: $buttonColor;
+    color: white;
+    border: none;
+}
