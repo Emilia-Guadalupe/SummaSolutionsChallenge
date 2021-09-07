@@ -1,0 +1,23 @@
+$titleFont: 'Roboto', sans-serif;
+$fontColor: gray;
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.main-title {
+    font-family: $titleFont;
+    font-size: 2rem;
+    color: $fontColor;
+    text-align: center;
+}
+
+.main-text {
+    font-family: $titleFont;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
