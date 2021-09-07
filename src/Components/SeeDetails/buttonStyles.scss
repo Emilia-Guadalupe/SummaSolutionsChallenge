@@ -7,11 +7,22 @@ $buttonColor: #4dbd3d;
 }
 
 .details-button {
-    padding: 0.5rem 3.5rem 0.5rem 3.5rem;
     font-size: 0.9rem;
     font-weight: bold;
     border-radius: 20px;
     background-color: $buttonColor;
     color: white;
     border: none;
+}
+
+@media (max-width:480px) {
+    .details-button {
+        padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 624px) {
+    .details-button {
+        padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    }
 }

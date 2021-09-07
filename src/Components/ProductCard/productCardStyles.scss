@@ -10,18 +10,18 @@ $discountColor: #c6c6c6;
 
 .details-container {
     background-color: $bgColor;
-    margin: 1rem;
 }
 
-.car-photo-container {
+.loading-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 3rem 1rem 3rem 1rem;
+    height: 100vh;
 }
 
-.car-photo {
-    height: 6rem;
+.loading {
+    font-family: $titleFont;
+    color: $secondFontColor;
+    font-weight: bold;
 }
 
 .element-name {
@@ -45,3 +45,42 @@ $discountColor: #c6c6c6;
     padding: 0.5rem 1rem 0.5rem 1rem;
     font-weight: bold;
 }
+
+@media (max-width:480px) {
+
+    .car-photo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+    .car-photo {
+        height: 5rem;
+    }
+
+    .details-container {
+        margin: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 624px) {
+    
+    .details-container {
+        margin: 1rem;
+    }
+    
+    .car-photo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+    
+    .car-photo {
+        height: 6rem;
+    }
+}
+
+
+
