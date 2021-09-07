@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './productCardStyles.scss';
-
 import { productDetails } from './productDetails';
+import { Link } from 'react-router-dom';
+
+//Components
 import SeeDetailsButton from '../SeeDetails/SeeDetailsButton';
 
 function ProductCard() {
