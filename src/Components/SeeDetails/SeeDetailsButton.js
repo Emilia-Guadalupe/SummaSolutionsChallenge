@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './buttonStyles.scss';
 
-function SeeDetailsButton() {
+function SeeDetailsButton({id}) {
 
     const [isMobileScreen, setMobileScreen] = useState(false)
 
@@ -28,7 +28,7 @@ function SeeDetailsButton() {
 
     return(
         <div className="button-container">
-            {isMobileScreen ? <button className="details-button">Comprar</button> : <button className="details-button">Ver Detalles</button>}
+            {isMobileScreen ? <button className="details-button">COMPRAR</button> : <button className="details-button">VER DETALLES</button>}
         </div>
     )
 }
