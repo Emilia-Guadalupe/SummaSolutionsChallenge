@@ -1,9 +1,10 @@
 import React from 'react';
+import './buttonStyles.scss';
 
 function SeeDetailsButton() {
     return(
         <div className="button-container">
-            <button>Ver Detalles</button>
+            <button className="details-button">Ver Detalles</button>
         </div>
     )
 }
