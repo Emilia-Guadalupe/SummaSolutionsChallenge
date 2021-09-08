@@ -2,6 +2,8 @@
 
 Proyecto hecho para Summa Solutions
 
+Link al proyecto: https://frosty-einstein-afe5b6.netlify.app/ 
+
 ## Para comenzar, podés descargar o clonar este repositorio. 
 
 ## Para hacer funcionar este proyecto se requieren estos módulos y dependencias:
