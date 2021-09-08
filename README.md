@@ -1,4 +1,51 @@
-# Getting Started with Create React App
+# Summa Solutions FED Challenge 
+--------
+
+Proyecto hecho para Summa Solutions
+
+## ¿Qué necesitás para ver este proyecto?
+
+## Para comenzar, podés descargar o clonar este repositorio. 
+
+## Para hacer funcionar este proyecto, se instalaron estas dependencias:
+
+* npm modules (los módulos básicos que se descargan con Create React App)
+* react-router-dom": "^5.3.0
+* node-sass": "^6.0.1
+
+## Recorrido inicial del proyecto
+
+En la **Home**, o **Página Principal** se puede visualizar un título, un texto introductorio y el listado de productos. Este listado está compuesto de una imagen, el nombre del producto, su precio actual y precio anterior,además de un botón para ver detalles. 
+
+Se puede acceder al detalle de cada producto haciendo click en el botón de cada "tarjeta" de producto. 
+
+Dentro de la página **Detalle del Producto** se muestran la imagen del mismo, el nombre, ambos precios, una breve descripción y un botón de compra.  
+
+## Estructura del proyecto
+
+Para desarrollar este proyecto se armó un array de productos, que se encuentra dentro de la carpeta *Product Card*, en el que se ubican los nombres, precios, descripción e imágenes de cada producto.  
+
+Todo el proyecto es *responsive*, tanto la Página Principal, como la página de Detalle del Producto. Está pensado para poder visualizarse tanto en Mobile y Tablet, así como en PCs de escritorio. 
+
+Para eso, se determinaron tres "break-points", buscando abarcar los tres principales tamaños de pantalla: 
+
+* Mobile: hasta 480px
+* Tablet: 600px
+* PCs de Escritorio o Notebooks: desde 1024px
+
+Al modificar el tamaño de la pantalla, pasando de tamaño PC a tamaño Mobile, el texto del botón **Ver Detalles** se transforma en el texto **Comprar**
+
+## React-Router-Dom
+
+Para poder crear las rutas, tanto estáticas como dinámicas, de la página web, se usó *React-router-dom*. 
+
+## SASS
+
+Para el diseño del proyecto se utilizó SASS. 
+
+----
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
