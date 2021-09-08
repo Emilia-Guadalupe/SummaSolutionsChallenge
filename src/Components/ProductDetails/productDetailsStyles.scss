@@ -1,0 +1,151 @@
+$titleFont: 'Roboto', sans-serif;
+$buttonColor: #4dbd3d;
+$buttonHover: #1f6d14;
+$secondFontColor: #676767;
+
+.complete-section-container {
+    height: 100vh;
+}
+
+.link-container {
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.link-home {
+    text-decoration: none;
+}
+
+.back-to-home {
+    background-color: $buttonColor;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.7rem;
+    color: white;
+    font-family: $titleFont;
+}
+
+.back-to-home:hover {
+    background-color: $buttonHover;
+}
+
+
+.title-section {
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.title-details {
+    font-family: $titleFont;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.part-img {
+    border-radius: 20px;
+}
+
+.specifications {
+    font-family: $titleFont;
+}
+
+.product {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.details-price {
+    font-family: $titleFont;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.details-discount {
+    font-family: $titleFont;
+    color: $secondFontColor;
+}
+
+@media (max-width:480px) and (min-width: 600px) {
+    .product-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .product-photo-container {
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+    }
+
+    .part-img {
+        height: 8rem;
+    }
+
+    .product-name {
+        text-align: center;
+    }
+
+    .product-price {
+        margin: 1rem;
+    }
+
+    .product-description {
+        margin: 1rem;
+    }
+
+    .description-text {
+        text-align: justify;
+        font-size: 0.8rem;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+
+    .buy-button-container {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .product-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        padding: 2rem 0rem 2rem 0rem;
+        margin: 2rem 0rem 2rem 0rem;
+    }
+    
+    .product-photo-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .specifications {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .product-name {
+        padding: 0rem 0rem 1rem 0rem;
+    }
+
+    .product-price {
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+    
+    .part-img {
+        height: 12rem;
+    }
+    
+    .product-description {
+        padding: 1rem 0rem 1rem 0rem;
+        font-family: $titleFont;
+    }
+    
+    .description-text {
+        width: 50%;
+        text-align: justify;
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+    }
+}
+
