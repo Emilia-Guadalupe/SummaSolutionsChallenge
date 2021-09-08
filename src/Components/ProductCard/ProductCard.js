@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './productCardStyles.scss';
 import { productDetails } from './productDetails';
+import { Link } from 'react-router-dom';
 
 //Components
 import SeeDetailsButton from '../SeeDetails/SeeDetailsButton';
@@ -41,7 +42,9 @@ function ProductCard() {
                                 <p className="discount">Antes: ${e.discount}</p>
                                 <p className="price">${e.price}</p>
                             </div>
+                            <Link to={`/detalles/${e.id}`}>
                             <SeeDetailsButton />
+                            </Link>
                         </div>
                     </div>
                 )
