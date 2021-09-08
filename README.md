@@ -34,7 +34,7 @@ Para eso, se determinaron tres "break-points", buscando abarcar los tres princip
 * Tablet o celular horizontal: 600px
 * PCs de Escritorio o Notebooks: desde 1024px
 
-Al modificar el tamaño de la pantalla, pasando de tamaño PC a tamaño Mobile, el texto del botón **Ver Detalles** se transforma en el texto **Comprar**
+Al modificar el tamaño de la pantalla, pasando de tamaño PC a tamaño Mobile vertical (480px), el texto del botón **Ver Detalles** se transforma en el texto **Comprar**
 
 ## React-Router-Dom
 
