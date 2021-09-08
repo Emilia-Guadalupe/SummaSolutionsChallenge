@@ -24,12 +24,14 @@ Dentro de la página **Detalle del Producto** se muestran la imagen del mismo, e
 
 Para desarrollar este proyecto se armó un array de productos, que se encuentra dentro de la carpeta *Product Card*, en el que se ubican los nombres, precios, descripción e imágenes de cada producto.  
 
+Al momento de realizar el llamado al array se decidió agregar un setTimeOut, para simular el tiempo de respuesta desde una API o base de datos. 
+
 Todo el proyecto es *responsive*, tanto la Página Principal, como la página de Detalle del Producto. Está pensado para poder visualizarse tanto en Mobile y Tablet, así como en PCs de escritorio. 
 
 Para eso, se determinaron tres "break-points", buscando abarcar los tres principales tamaños de pantalla: 
 
 * Mobile: hasta 480px
-* Tablet: 600px
+* Tablet o celular horizontal: 600px
 * PCs de Escritorio o Notebooks: desde 1024px
 
 Al modificar el tamaño de la pantalla, pasando de tamaño PC a tamaño Mobile, el texto del botón **Ver Detalles** se transforma en el texto **Comprar**
