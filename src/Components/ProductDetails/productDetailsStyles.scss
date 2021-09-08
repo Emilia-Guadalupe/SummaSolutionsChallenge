@@ -64,7 +64,47 @@ $secondFontColor: #676767;
     color: $secondFontColor;
 }
 
-@media (max-width:480px) and (min-width: 600px) {
+@media (max-width:480px) {
+    .product-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .product-photo-container {
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+    }
+
+    .part-img {
+        height: 8rem;
+    }
+
+    .product-name {
+        text-align: center;
+    }
+
+    .product-price {
+        margin: 1rem;
+    }
+
+    .product-description {
+        margin: 1rem;
+    }
+
+    .description-text {
+        text-align: justify;
+        font-size: 0.8rem;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+
+    .buy-button-container {
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 600px) {
     .product-section {
         display: grid;
         grid-template-columns: 1fr;
