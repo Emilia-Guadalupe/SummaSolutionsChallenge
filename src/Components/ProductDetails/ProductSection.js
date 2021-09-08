@@ -18,7 +18,7 @@ function ProductSection() {
             promise.then(productDetails => {
                 setDetails(productDetails)
             })
-        }, 500)
+        }, 300)
 
     }, [])
 
