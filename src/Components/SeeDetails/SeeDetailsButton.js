@@ -7,18 +7,18 @@ function SeeDetailsButton({id}) {
 
     useEffect(() => {
 
-        // set initial value to determine the screen size when the change happens
+        // Determinar valor inicial, a partir del cuál va a ocurrir el cambio en el texto del botón
         const mediaWatcher = window.matchMedia("(max-width: 500px)")
         setMobileScreen(mediaWatcher.matches);
     
-        //watch for updates in the screen size
+        // Actualizar ante cambios en la pantalla
         function updateIsNarrowScreen(e) {
             setMobileScreen(e.matches);
         }
 
         mediaWatcher.addEventListener('change', updateIsNarrowScreen)
     
-        // remove event listener after changes
+        // Sacar los Event Listenerse después de ocurrido el cambio
         return function cleanup() {
             mediaWatcher.removeEventListener('change', updateIsNarrowScreen)
         }
