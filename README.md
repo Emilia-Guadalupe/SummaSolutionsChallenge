@@ -4,7 +4,7 @@ Proyecto hecho para Summa Solutions
 
 ## Para comenzar, podés descargar o clonar este repositorio. 
 
-## Para hacer funcionar este proyecto, se instalaron estas dependencias:
+## Para hacer funcionar este proyecto se requieren estos módulos y dependencias:
 
 * npm modules (los módulos básicos que se descargan con Create React App)
 * react-router-dom": "^5.3.0
