@@ -10,6 +10,8 @@ function ProductCard() {
 
     const [item, setItem] = useState([]);
 
+    //Se llama a los productos con cierto delay, para simular el tiempo de respuesta desde una API o base de datos:
+
     useEffect(() => {
 
         setTimeout(() => {
