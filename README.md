@@ -1,9 +1,6 @@
 # Summa Solutions FED Challenge 
---------
 
 Proyecto hecho para Summa Solutions
-
-## ¿Qué necesitás para ver este proyecto?
 
 ## Para comenzar, podés descargar o clonar este repositorio. 
 
@@ -17,7 +14,7 @@ Proyecto hecho para Summa Solutions
 
 En la **Home**, o **Página Principal** se puede visualizar un título, un texto introductorio y el listado de productos. Este listado está compuesto de una imagen, el nombre del producto, su precio actual y precio anterior,además de un botón para ver detalles. 
 
-Se puede acceder al detalle de cada producto haciendo click en el botón de cada "tarjeta" de producto. 
+Se puede acceder al detalle de cada producto haciendo click en el botón de cada "tarjeta". 
 
 Dentro de la página **Detalle del Producto** se muestran la imagen del mismo, el nombre, ambos precios, una breve descripción y un botón de compra.  
 
@@ -41,7 +38,7 @@ Para poder crear las rutas, tanto estáticas como dinámicas, de la página web,
 
 ## SASS
 
-Para el diseño del proyecto se utilizó SASS. 
+Para el diseño del proyecto se utilizó *SASS*. 
 
 ----
 
