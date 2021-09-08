@@ -2,9 +2,11 @@ $titleFont: 'Roboto', sans-serif;
 $buttonColor: #4dbd3d;
 $buttonHover: #1f6d14;
 $secondFontColor: #676767;
+$bg-color: #ebebeb;
 
 .complete-section-container {
     height: 100vh;
+    background-color: $bg-color;
 }
 
 .link-container {
