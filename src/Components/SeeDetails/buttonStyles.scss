@@ -27,7 +27,13 @@ $buttonHover: #1f6d14;
     }
 }
 
-@media only screen and (min-width: 624px) {
+@media (min-width: 600px) {
+    .details-button {
+        padding: 0.7rem 4rem 0.7rem 4rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
     .details-button {
         padding: 0.7rem 3rem 0.7rem 3rem;
     }
