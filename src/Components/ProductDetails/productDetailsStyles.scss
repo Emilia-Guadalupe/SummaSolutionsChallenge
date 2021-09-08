@@ -105,6 +105,10 @@ $secondFontColor: #676767;
 }
 
 @media (min-width: 600px) {
+    .complete-section-container {
+        height: 100%;
+    }
+
     .product-section {
         display: grid;
         grid-template-columns: 1fr;
@@ -137,6 +141,7 @@ $secondFontColor: #676767;
         text-align: justify;
         font-size: 0.8rem;
         padding: 0.5rem 0rem 0.5rem 0rem;
+        width: 90%;
     }
 
     .buy-button-container {
