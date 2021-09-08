@@ -42,7 +42,7 @@ function ProductCard() {
                                 <p className="discount">Antes: ${e.discount}</p>
                                 <p className="price">${e.price}</p>
                             </div>
-                            <Link to={`/detalles/${e.id}`}>
+                            <Link className="link-to-section" to={`/detalles/${e.id}`}>
                             <SeeDetailsButton />
                             </Link>
                         </div>
